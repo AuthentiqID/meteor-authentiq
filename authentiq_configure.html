@@ -1,0 +1,22 @@
+<template name="configureLoginServiceDialogForAuthentiq">
+  <p>
+    First, you'll need to get an Authentiq Client ID. Follow these steps:
+  </p>
+  <ol>
+    <li>
+      Visit the <a href="https://dashboard.authentiq.com/" target="blank">Authentiq Dashboard</a>.
+    </li>
+    <li>
+      Sign in, if needed.
+    </li>
+    <li>
+      Register a new Client.
+    </li>
+    <li>
+       Set the client's Redirect URI to: <span class="url">{{siteUrl}}_oauth/authentiq</span>
+    </li>
+    <li>
+      Navigate to App Keys and copy the Client ID and Client Secret into the fields below.
+    </li>
+  </ol>
+</template>
